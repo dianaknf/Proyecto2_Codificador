@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="codificar descodificar cifrar descifrar ocultar descubrir palabras frase escrito documento comunicado mensaje texto carta correo confidencial intimo personal privado secreto esconder disfrazar tapar" />
+         <meta name=”description” content="Encripta y desencripta texto con una clave."/>       
+        <link rel="stylesheet" type="text/css" href="assets/css/incripejem.css" />
+        <title>Encriptar Texto.</title>
+
+    </head>
+
+    <body background="https://par30games.net/wp-content/uploads/2020/11/The-Red-Lantern-1.jpg" style="background-repeat: no-repeat; background-position: center center;">
+        <div class= fondo>
+        <div class="Cabecera">
+            <div><span id="Titulo"><b>ENCRIPTAR TEXTO</b></span></div>
+        </div>
+
+        
+        <form id="formulario1" action="/enigma/index.php" method="post">
+            <div class="etiqueta"><b>CLAVE: </b></div>
+            <input maxlength="18" type="text" name="clave" id="Clave" autocomplete="off" placeholder="Clave." value="   " />
+            <input type="button" name="boton" class="Boton_p" value="Ocultar clave" />
+            
+
+            <input type="hidden" name="ocultar_clave" value="Ocultar clave" />
+
+            <div class="etiqueta"><b>TEXTO SIN ENCRIPTAR: </b></div>
+            <textarea maxlength="65536" rows="5" name="texto_normal" id="TextoNormal" placeholder="  Texto sin encriptar."  ></textarea>
+            <input type="button" class="Boton" onclick="Encriptar" value="Encriptar" />
+            <div class="mensajes" style="color:blue;">
+               
+             </div>
+
+            <input type="button" name="boton" class="Boton" onclick="Desencriptar" value="Desencriptar" />
+            <div class="etiqueta"><b>TEXTO ENCRIPTADO: </b></div>
+            <textarea rows="5" name="texto_encriptado" id="TextoEncriptado" placeholder="  Texto encriptado." ></textarea>
+        </form>
+    </div>
+
+    
+      
+        </div>
+        
+        
+        <script   src="assets/js/enigma.js" type="module"></script>
+    </body>
+
+</html>
+

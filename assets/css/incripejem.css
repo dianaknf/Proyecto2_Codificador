@@ -1,0 +1,174 @@
+.cabecera {
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.219);
+    box-shadow: 0 8px 50px rgb(0 0 0 / 60%);
+    background-color: rgba(133, 228, 241, 0.884);
+    margin: 30px auto;
+    height: 80px;
+    width: 90%;
+text-align: none;
+font-family:'Trebuchet MS',  ;
+font-size: 55px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+div {display: block;}
+
+.texto {
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+body{font-family: 'Courgette', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+.etiqueta {
+    border-radius: 50px 10px 0 0;
+    background-color: rgba(253, 253, 253, 0);
+    color:   rgb(0, 0, 0)  ;
+    height: 30;}
+    
+.container {padding: 50px 10px 0;
+background-color: rgba(204, 204, 204, 0.815);
+margin: 50px;
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+height: 50px;
+width: 0%;
+color: #d10000;
+    font-size: 25px;}
+
+
+.titulo__marca {font-size: 50px;}
+    
+h3 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+.input {
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 20px;
+    margin: 10px 0;
+    width: 70%;}
+input {
+    font-family: 'Courgette', cursive;
+    font-size: 16px;}
+input[type="text" i] {padding: 1px 2px;}
+
+.boton {
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 40%;}
+.submit {
+    font-family: 'Courgette', cursive;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 0, 0);
+    padding: 5px;
+    margin: 10px auto;
+    width: 80%;}
+.boton:hover,
+.botonTrivias:hover
+.botonSiguiente:hover {
+    background-color:  #000000f1 ;
+    color: white;
+    border: 1px solid #000000
+}
+.cifrar{
+    background-color:  #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    font-weight: 800;
+    display: block;
+    padding: 0px 10px;
+    margin: 10px auto;
+    width: 30%;
+    }
+
+.descifrar {
+    background-color:  #ffffff;
+    border-radius: 2px;
+    border: 1px solid rgb(189, 6, 6);
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 30%;
+    margin-left: 10%;
+    font-weight: bold;
+   }
+.cif {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;}
+
+
+script {display: none;}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
+
+
+
+    textarea {
+        resize: none;
+        padding: 10px 0px;
+        width: 75%;
+        margin: 5px;
+        border: 4px solid rgb(0, 0, 0);
+        background-color:  rgba(159, 245, 192, 0.726) ;
+        color: rgb(0, 0, 0);
+        border: 1px solid #000000;
+        font-style: italic;
+        border-radius: 10px;
+        text-decoration:black;
+        font-family: 'Trebuchet MS';
+    }
+ .fondo {
+    border-radius: 0px;
+    border: 1px solid rgba(127, 10, 131, 0.959);
+    box-shadow: 0 px 10px rgb(0 0 0 / 60%);
+    background-color: rgba(255, 166, 228, 0.5);
+    margin: 0px auto;
+    height: 657px;
+    width: 85%;}
+    #Clave{
+        border-radius: 8px;
+    }
+    .Boton_p {
+        background-color: rgba(133, 229, 241, 0.774);
+        font-weight:bold;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding: 2px; 
+        border-radius: 8px;
+        font-family: 'Courgette', Geneva, sans-serif;
+        font-weight: bolder;
+        color: #000000;}
