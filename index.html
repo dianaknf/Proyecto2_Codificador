@@ -26,12 +26,12 @@
 
             <div class="etiqueta"><b>TEXTO SIN ENCRIPTAR: </b></div>
             <textarea maxlength="65536" rows="5" name="texto_normal" id="TextoNormal" placeholder="  Texto sin encriptar."  ></textarea>
-            <input type="button" class="Boton" onclick="Encriptar" value="Encriptar" />
+            <input type="button" class="Boton" onclick="Encriptar()" value="Encriptar" />
             <div class="mensajes" style="color:blue;">
                
              </div>
 
-            <input type="button" name="boton" class="Boton" onclick="Desencriptar" value="Desencriptar" />
+            <input type="button" name="boton" class="Boton" onclick="Desencriptar()" value="Desencriptar" />
             <div class="etiqueta"><b>TEXTO ENCRIPTADO: </b></div>
             <textarea rows="5" name="texto_encriptado" id="TextoEncriptado" placeholder="  Texto encriptado." ></textarea>
         </form>
@@ -42,7 +42,7 @@
         </div>
         
         
-        <script   src="assets/js/enigma.js" type="module"></script>
+        <script   src="assets/js/enigma.js" ></script>
     </body>
 
 </html>

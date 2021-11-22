@@ -39,15 +39,15 @@ function decodeMorse(morseCode) {
     };
   }
 
-  function Encriptar (morseCode){
-  var palabra = document.getElementsByClassName("input")[0].value;
+  function Encriptar (){
+  var palabra = document.getElementById("TextoNormal").value;
   palabra_codificada = btoa(palabra);
-  document.getElementsByClassName("resultado").innerHTML = palabra_codificada;
+  document.getElementById("TextoEncriptado").innerHTML = palabra_codificada;
   }
-  function Desencriptar (morseCode) {
-    var palabra = document.getElementsByClassName ("input")[0].value;
+  function Desencriptar () {
+    var palabra = document.getElementById("TextoNormal").value;
     palabra_decodificada = atob (palabra);
-    document.getElementsByClassName("resultado").innerHTML = palabra_decodificada;
+    document.getElementById("TextoEncriptado").innerHTML = palabra_decodificada;
   }
 
   
